@@ -13,7 +13,7 @@
 4.  Realocar props.
 
 
-# 2. Descrição do projeto
+## 2. Descrição do projeto
 
 Converter a forma clássica de usar Redux (através de class) para React Hooks.
 
