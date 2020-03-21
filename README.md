@@ -1,4 +1,11 @@
-### Conceitos abordados:
+# GoStack 10.0 || Módulo 07 - React Hooks
+
+* [1. Conceitos abordados](#1-conceitos-abordados)
+* [2. Descrição do projeto](#2-descrição-do-projeto)
+* [3. Iniciando o Projeto](#3-iniciando-o-projeto)
+* [4. Convertendo classe (React Hooks)](#4-convertendo-classe-(react-hooks))
+
+## 1. Conceitos abordados
 
 1.  Instalar React Hooks.
 2.  Transformar State em useState.
@@ -7,7 +14,7 @@
 
 ___
 
-### Desrição do projeto:
+# 2. Desrição do projeto
 
 Converter a forma clássica de usar Redux (através de class) para React Hooks.
 
@@ -15,12 +22,12 @@ Projeto Inicial: https://github.com/MaisDennis/GoStack10.0-Modulo-07
 
 Um website 'Rocketshoes', que tem uma lista de produtos (tênis). O site permite adicionar os produtos ao 'Carrinho'. Na página do Carrinho,  podemos alterar a quantidade de cada produto, remover o produto e temos o retorno do valor subtotal e total de produtos em R$.
 
-### Iniciando o projeto:
+## 3. Iniciando o projeto
 
 1.  json-server server.json -p 3333
 2.  yarn start
 
-### Convertendo classe (React Hooks)
+## 4. Convertendo classe (React Hooks)
 
 1.  Converter todas as classes do modulo07
 2.  Instalar Hooks.
