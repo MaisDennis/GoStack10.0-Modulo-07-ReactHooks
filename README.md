@@ -3,7 +3,7 @@
 * [1. Conceitos abordados](#1-conceitos-abordados)
 * [2. Descrição do projeto](#2-descrição-do-projeto)
 * [3. Iniciando o Projeto](#3-iniciando-o-projeto)
-* [4. Convertendo classe (React Hooks)](#4-convertendo-classe-(react-hooks))
+* [4. Convertendo classe (React Hooks)](#4-convertendo-classe-usando-react-hooks)
 
 ## 1. Conceitos abordados
 
@@ -12,9 +12,8 @@
 3.  Transformar componentDidMount em useEffect.
 4.  Realocar props.
 
-___
 
-# 2. Desrição do projeto
+# 2. Descrição do projeto
 
 Converter a forma clássica de usar Redux (através de class) para React Hooks.
 
@@ -24,10 +23,16 @@ Um website 'Rocketshoes', que tem uma lista de produtos (tênis). O site permite
 
 ## 3. Iniciando o projeto
 
-1.  json-server server.json -p 3333
-2.  yarn start
+1.  Iniciar a biblioteca JSON Server:
+```
+json-server server.json -p 3333
+```
+2.  Iniciar o React
+```
+yarn start
+```
 
-## 4. Convertendo classe (React Hooks)
+## 4. Convertendo classe usando React Hooks
 
 1.  Converter todas as classes do modulo07
 2.  Instalar Hooks.
